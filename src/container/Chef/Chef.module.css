@@ -1,0 +1,56 @@
+.wrapper {
+    background-image: url(../../assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width:100%;
+    padding:9.5rem 1rem;
+}
+.chefInfo {
+    margin:0 22px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.chefInfo > div {
+    width:50%;
+}
+.chefInfo .chefInfoImage {
+    padding:0 1rem;
+}
+.chefInfo .chefInfoImage > img {
+    width:100%;
+    height:100%;
+}
+.chefInfoContent {
+    padding:0 1rem 0 5rem;
+}
+
+.chefInfoContent > p  {
+    font-family: var(--font-alt) ;
+    font-size: 0.9rem;
+    text-transform: none;
+}
+
+.infoText {
+    margin-top:64px;
+    line-height: 1.66em;
+}
+
+p > span {
+    float: left;
+    line-height: -14em;
+    width: 1em;
+    height: 1em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 19px 2.5em 12px 23px;
+}
+
+p > span img {
+    width:47px;
+    height:40px;
+    margin-right:7px;
+}

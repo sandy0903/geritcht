@@ -1,0 +1,24 @@
+.wrapper {
+    padding:9.5rem 2rem;
+    background-color: var(--color-black);
+}
+.reservationForm {
+    text-align: center;
+    border:1px solid var(--color-golden);
+    padding: 3rem 0rem;
+}
+.reservationForm h1 {
+    margin-bottom:4rem;
+}
+.formBody .inputGroup {
+    display:flex;
+}
+.formBody .inputGroup > div {
+    height:55px;
+    line-height: 55px;
+    margin:0 1rem;
+    background-color: transparent;
+}
+.formBody button {
+    margin-top:4rem ;
+}

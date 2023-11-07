@@ -1,0 +1,13 @@
+.wrapper {
+    padding:152px 0;
+    background-color: var(--color-black);
+}
+.customerHeader {
+    text-align: center;
+    margin-bottom: 64px;
+}
+.customers {
+    display:flex;
+    flex-wrap: wrap;
+    padding:0 48px;
+}

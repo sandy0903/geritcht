@@ -1,0 +1,60 @@
+.headerSection {
+    background-color: var(--color-black);
+}
+.headerMain {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 2rem 9rem 2rem;
+    overflow:hidden;
+    padding-top: 94px;
+}
+.headerContent {
+    width:45%;
+    margin-right:50px;
+}
+.headerImg {
+    width:55%;
+    position:relative;
+}
+.carouselBtn {
+    position:absolute;
+    left:0;
+    bottom:5rem;
+}
+
+.carouselBtn button {
+    position:relative;
+    width:60px;
+    height:60px;
+    background-color:var(--color-black);
+    outline:none;
+    border:none;
+    transition:all 1000ms ease;
+}
+.carouselBtn button::before{
+    content:"";
+    position:absolute;
+    height:100%;
+    width:0;
+    top:0;
+    right:0;
+    background-color:var(--color-golden);
+    transition:all 1000ms cubic-bezier(.42, 0, .58, 1);
+}
+.carouselBtn button:hover::before{
+    left:0;
+    width:100%;
+    right:auto;
+}
+
+.carouselBtn button polyline {
+    stroke:var(--color-white)
+}
+.text {
+    padding:2rem 0;
+    width:80%;
+}
+.textAnimation{
+    transition: all 1000ms ease;
+}
