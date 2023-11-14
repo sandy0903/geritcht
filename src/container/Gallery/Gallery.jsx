@@ -9,7 +9,6 @@ const Gallery = () => {
   return (
   <div>
     <Carousel>
-
       {blogs?.map((item) => (
         <Card {...item}/>
       ))}

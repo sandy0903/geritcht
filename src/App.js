@@ -1,5 +1,5 @@
 import React from 'react';
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, SpecialMenu,Reservation,Customers } from './container';
+import { AboutUs, Chef, Footer, Gallery, Header, SpecialMenu,Reservation,Customers } from './container';
 import './App.css';
 import styles from './App.module.css';
 
@@ -12,7 +12,6 @@ const App = () => (
     <Chef />
     <Customers/>
     <Gallery />
-    <FindUs />
     <Footer />
   </div>
 );
