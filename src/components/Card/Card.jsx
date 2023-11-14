@@ -13,13 +13,18 @@ const Card = (props) => {
             </div>
             <div className={styles.cardContent}>
                 <div className={styles.cardTopic}>
-                    <p>{topic}/{role}</p>
+                    <p>{topic}</p>
+                    <span>/</span>
+                    <p>{role}</p>
                 </div>
                 <div className={styles.cardTitle}>
                     <p>{title}</p>
                 </div>
                 <div className={styles.cardDesc}>
                     <p>{desc}</p>
+                </div>
+                <div className={styles.cardLink}>
+                    <a href="#" target='blank'>Read more</a>
                 </div>
             </div>
         </div>
